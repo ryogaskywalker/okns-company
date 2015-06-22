@@ -1,0 +1,52 @@
+@charset: "utf-8";
+body {
+    font-family: "YuGothic","遊ゴシック";
+}
+.menu {
+    position: relative;
+}
+.top_title {
+    position: fixed;
+    font-size: 34px;
+    margin: 20px 40px;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+.wrap {
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(33,33,33);
+}
+.section_title {   
+    font-size: 32px;
+    font-weight: bold;
+}
+.section_contents {
+    text-align: center;
+    margin: 80px 60px;
+}
+.mission {
+    width: 85%;
+    text-align: justify;
+    display: inline-block;
+    margin-top: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 24px;
+}
+.mem {
+    margin-top: 40px;
+}
+.icon {
+    margin: 10px;
+}
+.text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.copyright {
+    font-size: 14px;
+    text-align: center;
+}
