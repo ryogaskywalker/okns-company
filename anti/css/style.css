@@ -41,7 +41,7 @@
   font-size:24px;
 }
 .main__left__cont__desc input{
-  width: 40px;
+  width: 60px;
   margin: 10px;
 }
 .main__right{
@@ -51,6 +51,14 @@
 .main__right img{
   display:block;
   width:100%;
+}
+.counter{
+  font-size:12px;
+  max-height:200px;
+  max-width: 300px;
+  overflow-y: scroll;
+  margin: 30px auto;
+  padding:10px;
 }
 .button {
   display: inline-block;

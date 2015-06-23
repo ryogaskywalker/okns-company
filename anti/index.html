@@ -21,21 +21,27 @@
     <meta name="twitter:site" content="@">
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.1/build/cssreset/cssreset-min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <link rel="apple-touch-icon" href="img/appliv_icon.png">
+    <!--
     <link rel="shortcut icon" href="img/favicon.ico">
+    -->
   </head>
   <body>
     <div class="main cf">
       <div class="main__left">
         <div class="main__left__cont">
-          <p>俺のサイトに打ち込んでこいや</p>
+          <p>もっと打ち込んでこいよ</p>
           <div class="main__left__cont__desc">
-            このページに<input type="number">回Dos攻撃する
+            このページに<input type="number" value="10" class="js-dos">回Dos攻撃する
           </div>
-          <a class="button mt40" href="#">
+          <a id="dos" class="button mt40" href="#">
               <span>Dos!!!!!</span>
               <span>やる？</span>
           </a>
+          <div class="js-counter counter">
+          </div>
         </div>
       </div>
       <div class="main__right">
