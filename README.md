@@ -1,4 +1,8 @@
-# [奥西カンパニーのサイトページ](http://okunishi-company.tokyo)
+# 奥西カンパニーのサイトページ
+* http://okunishi-company.tokyo
+
+## コンセプト
+* 奥西のことをいじくりまわして遊ぶ
 
 ## ルール
 * 基本的に自由
@@ -13,6 +17,8 @@
 * ruby 1.9.3p484
 * 導入してほしい環境があれば言ってくれればやります（Verなども）
 
+## 最近の動向 
+* コントリビューター募集中
 
 ## なにかあれば
 * [奥西亮賀](https://www.facebook.com/ryoga.okunishi)
