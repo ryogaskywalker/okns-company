@@ -1,19 +1,30 @@
 @charset: "utf-8";
 body {
 	font-family: "YuGothic", "遊ゴシック";
+	display: none;
 }
 
-.wrap {
-	background: url("../img/logo.jpg") no-repeat center;
-	background-size: cover;
-	height: 900px;
+.header {
+	overflow: hidden;
+	height: 600px;
+	position: relative;
 }
 
-h1 {
+.header video {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header h1 {
+	position: absolute;
+	top: 220px;
+	left: 0;
 	font-weight: bold;
 	font-size: 40px;
 	color: rgb(255, 255, 255);
-	padding-top: 420px;
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
 }
 

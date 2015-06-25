@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="viewport" content="width=device-width">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript">
-  $('head').append(
-        '<style type="text/css">body {display:none;}'
-  );
-  $(window).load(function() {
-  $('body').fadeIn("slow");
-  });
-  </script>
-  <title>奥西カンパニー</title>
-</head>
-<body>
-<div class="wrap">
-  <h1>ぼくたちは、迎合する。そう、奥西亮賀に。</h1>
-</div>
-<div class="contents">
-  <p class="text">そのカリスマ性、その知性、そのビジュアル。<br>ぼくたちは気がつくとある言葉を言っていた。</p>
-  <p class="copy">「さすが奥西社長！」</p>
-</div>
-<div class="footer">
-  <p class="text2">奥西カンパニーはまだ誰も気づいていない「おもしろい！」を発見し、<br>デザイン・エンジニアリングのちからを用いてモノヅクリにとりくんでいます。</p>
-</div>
 
-<div class="recruit">
-  <p><a href="https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%8F%E5%B9%B4%E3%81%8F%E3%82%8B%E5%B9%B4">採用はこちら！</a></p>
-</div>
-<script type="text/javascript" src="js/analytics.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>奥西カンパニー</title>
+</head>
+
+<body>
+	<div class="header">
+		<video src="mov.mp4" autoplay loop id="movie"></video>
+		<h1>ぼくたちは、迎合する。そう、奥西亮賀に。</h1>
+	</div>
+	<div id="wrap">
+		<div class="contents">
+			<p class="text">そのカリスマ性、その知性、そのビジュアル。
+				<br>ぼくたちは気がつくとある言葉を言っていた。</p>
+			<p class="copy">「さすが奥西社長！」</p>
+		</div>
+		<div class="footer">
+			<p class="text2">奥西カンパニーはまだ誰も気づいていない「おもしろい！」を発見し、
+				<br>デザイン・エンジニアリングのちからを用いてモノヅクリにとりくんでいます。</p>
+		</div>
+		<div class="recruit">
+			<p><a href="https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%8F%E5%B9%B4%E3%81%8F%E3%82%8B%E5%B9%B4">採用はこちら！</a>
+			</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/analytics.js"></script>
 </body>
+
 </html>
